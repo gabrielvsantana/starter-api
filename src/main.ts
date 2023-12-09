@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import './server/config/module-alias';
 
 import { PgConnection } from '@/infra/db/pg.connection';
